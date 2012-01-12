@@ -1,0 +1,119 @@
+* 
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body
+{
+	line-height: 1;
+	background-color: #fff;
+	font-family: helvetica;
+	font-size: 14px;
+	color: #444;
+}
+
+#left_panel
+{
+	position: absolute;
+	top: 32px;
+	left: 8%;
+	background-color: #fff;
+	width: 58%;
+	min-height: 90%;
+	border: 1px solid #ddd;
+	box-shadow: 0px 0px 128px #f2f2f2;
+	border-radius: 8px;
+}
+
+#right_panel
+{
+	position: absolute;
+	left: 66%;
+	width: 33%;
+	height: 100%;
+}
+
+#right_panel_center
+{
+	position: relative;
+	top: 50%;
+	text-align: center;
+}
+
+#right_panel_title
+{
+	font-family: 'Fredericka the Great', cursive;
+	position: relative;
+	top: -43px;
+	font-size: 64px;
+	color: #ddd;
+	text-shadow: 0px 0px 8px #eee;
+}
+
+#right_panel_description
+{
+	position: relative;
+	top: -32px;
+}
+
+#content
+{
+	margin: 16px;
+}
+
+#nav
+{
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	background-color: #eee;
+	height: 25px;
+	line-height: 25px;
+	border-bottom: 1px solid #ddd;
+	padding: 0px 16px;
+}
+
+#nav_link
+{
+	display: inline-block;
+	padding: 0px 16px;
+	font-weight: bold;
+	color: #777;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+#nav_divider
+{
+	display: inline-block;
+	width:0px;
+	border-right: 1px dotted #ddd;
+}
+
+#nav_link:hover
+{
+	text-decoration: underline;
+}
+
+#footer
+{
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	top: 100%;
+	margin-top: -20px;
+}
+
+.subtle_text
+{
+	text-decoration: none;
+	font-family: helvetica;
+	font-size: 11px;
+	font-weight: bold;
+	color: #d7d7d7;
+	text-transform: uppercase;
+}
